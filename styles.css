@@ -1,0 +1,156 @@
+body{font-family: 'Montserrat', sans-serif;
+    animation: fadeInAnimation ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;}
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+         }
+    }
+#title
+{
+background-image: linear-gradient(to bottom left,blue,aqua);
+}
+
+h1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: white;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+
+}
+h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid
+{
+    padding: 3% 15% 7%;
+    
+    height: 640px;
+}
+.navbar-brand
+{
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    
+}
+
+.title-image{height: 400px; width: 400px;}
+.navbar{padding-bottom: 4.5rem;}
+.astro-logo{ width: 20%; position: absolute; left: 64%; bottom: 30%; }
+.nav-item{padding: 0 1rem;}
+.nav-link{font-family: 'Montserrat'; font-weight: 400;}
+.download-button{margin: 5% 3% 5% 0;}
+#features{padding: 4rem 0;}
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #1698ba ;
+    margin-bottom: 1rem;
+}
+
+
+#testimonials
+{
+   
+    text-align: center;
+    
+    color: #fff;
+}
+.testi{color: #fff; font-size: 2.5rem; font-family: 'Montserrat';
+    font-weight: 600;}
+.testimonial-image{
+    border-radius: 80%;
+    width: 10%;
+    margin: 1.25rem;
+}
+#press{
+    text-align: center;
+   
+    padding-bottom: 3%;
+}
+.press-img{width: 15%; margin: 20px 20px 50px; }
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing
+{
+    padding: 5rem;
+    padding-bottom: 0;
+    text-align: center;
+}
+.pricing-col
+{
+    padding: 3% 2%;
+}
+#features{position: relative; background-color: #fff;}
+
+#cta
+{
+    
+    text-align: center;
+    font-size: 2rem;
+    padding: 5% 20% 1%;
+    background-color: rgb(13, 127, 199);
+}
+
+.cta-title
+{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+.end-btn
+{
+    margin: 1%;
+    margin-bottom: 10%;
+    
+}
+#footer
+{
+    padding-top: 5rem;
+    text-align: center;
+    padding-bottom: 5rem
+    
+}
+.cta-logo
+{
+    margin: 1%;
+    padding-bottom: 1rem;
+}
+@media (max-width: 1028px)
+{
+    #title{
+        text-align: center;
+        position: static;
+    }
+    .container-fluid{height: 100%;}
+    .astro-logo{position: static; width: 100%;}
+    .vpn-img{margin: auto;}
+    .nav-link
+    {
+        text-align: right;
+    }
+}
+.press-img-verge{width: 10%;}
+#mid{background-image: linear-gradient(to top left,rgb(30, 116, 245),rgb(74, 176, 249));}
